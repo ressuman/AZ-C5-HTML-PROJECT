@@ -38,3 +38,6 @@ The objective is to design and develop an interactive portfolio website that sho
 9. File Paths and Project Structure:
 - I organized project files in a structured folder hierarchy.
 - Also used relative paths to link resources (images, multimedia files) and separate CSS or JavaScript files (if any).
+
+After creating my portfolio website, I double-checked my HTML file for any errors or typos. I also used comprehensive use of HTML elements and attributes as specified above.
+I maintained proper structuring and organization of my contents across all the multiple pages. For the sake of interactivity, and accessibility considerations I integrated of multimedia elements properly
