@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Skills, Projects and Accomplishments-Accessibility, Multimedia Elements and Interactivity"
+    />
+    <meta
+      name="description"
+      content="Explore an interactive portfolio website that highlights my talents, projects, and achievements, while incorporating HTML elements for enhanced accessibility, multimedia integration, and interactivity."
+    />
+    <meta name="author" content="Richard Essuman" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/Media/Images/contactfavicon1.png"
+      type="image/x-icon"
+    />
     <title>My Portfolio-Contact</title>
   </head>
   <body>
-    <!-- navigation section -->
+    <!-- Navigation Section -->
     <header>
       <nav>
         <ul>
@@ -15,7 +29,15 @@
           </li>
 
           <li>
-            <a href="./about.html">About</a>
+            <a href="./about.html">About Me</a>
+          </li>
+
+          <li>
+            <a href="./projects.html">Projects</a>
+          </li>
+
+          <li>
+            <a href="./skills-expertise.html">Skills and Expertise</a>
           </li>
 
           <li>
@@ -25,38 +47,209 @@
           <li>
             <a href="./multimedia.html">Multimedia</a>
           </li>
-
-          <li>
-            <a href="./skills-expertise.html">Skills and Expertise</a>
-          </li>
-
-          <li>
-            <a href="./projects.html">Projects</a>
-          </li>
         </ul>
       </nav>
-
-      <!-- hero section -->
-      <section>
-        <img src="" alt="" />
-        <button>Contact me</button>
-      </section>
     </header>
 
     <main>
-      <!-- introduction -->
+      <!-- Introduction-Contact-->
       <section>
-        <h1>Hello World</h1>
+        <h1>Contact Us</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit.
+          Do you have any questions or comments? Fill out the form below and
+          I'll get back to you as soon as possible.
         </p>
       </section>
 
-      <section></section>
+      <!-- Form Input-->
+      <section>
+        <h2>Contact Form</h2>
+        <form action="./no_query" method="get" target="_blank">
+          <div>
+            <label for="firstname">First Name</label>
+            <br />
+            <input
+              type="text"
+              name="first-name"
+              id="firstname"
+              placeholder="Please enter your first name"
+              size="30"
+              required
+            />
+            <br />
+            <br />
+          </div>
+
+          <div>
+            <label for="surname">Surname</label>
+            <br />
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Please enter your first name"
+              size="30"
+              required
+            />
+            <br />
+            <br />
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Please enter your email"
+              size="30"
+              required
+            />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+
+          <div>
+            <label for="message"
+              >Additional Feedback, Comments, Suggestions and Messages</label
+            >
+            <br />
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Please give your comments and suggestion here ......"
+            ></textarea>
+            <br />
+            <br />
+            <br />
+          </div>
+
+          <div>
+            <button type="submit">Save and Send</button>
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <!-- Social Media Links -->
+        <h2>Contact Me through my Social media handle/contacts</h2>
+        <div>
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/fb.png"
+                  alt="facebook-icon"
+                  width="30"
+                />Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/ins.png"
+                  alt="instagram-icon"
+                  width="30"
+                />Instagram</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/lkd.png"
+                  alt="linkedin-icon"
+                  width="30"
+                />LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/tlg.png"
+                  alt="telegram-icon"
+                  width="30"
+                />Telegram</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/twt.png"
+                  alt="twitter-icon"
+                  width="30"
+                />Twitter</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/Media/Images/whp.png"
+                  alt="whatsapp-icon"
+                  width="30"
+                />WhatsApp</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Additional Contact Information -->
+        <!-- Contact Me through my contact number and emails -->
+        <div>
+          <ul type="square">
+            <li>
+              Telephone Number:
+              <a href="#">(030)-548-2148</a>
+            </li>
+            <li>
+              Phone Number:
+              <a href="#">(024)-548-2148</a>
+            </li>
+            <li>
+              Email Address:
+              <a href="#">comments@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
+    <!-- Iframe -->
+    <article>
+      <!-- Map -->
+      <h2>Embedded Google map and video</h2>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21231.66037938252!2d-122.4294291868617!3d37.77494860535316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10ec7f5238969c92%3A0x7c4f66bc454b2f98!2s1%2DInch%20Lake!5e0!3m2!1sen!2sus!4v1625262312424!5m2!1sen!2sus"
+          title="Google Maps"
+          width="600"
+          height="450"
+          allowfullscreen
+        ></iframe>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <!-- Video -->
+      <div>
+        <iframe
+          src="https://www.youtube.com/embed/examplevideo"
+          title="Example Video"
+          width="600"
+          height="450"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </article>
+
     <footer>
-      <div>&copy; 2023 All Rights Reserved</div>
+      <div>&copy; 2023- My Portfolio Website: All Rights Reserved</div>
     </footer>
   </body>
 </html>
